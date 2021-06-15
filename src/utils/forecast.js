@@ -12,7 +12,7 @@ const forecast = (latitude, longitude, callback) => {
             callback(undefined, 
                 "We are in " +
                 response.body.location.region + 
-                "I'ts " +
+                " I'ts " +
                 response.body.current.weather_descriptions + 
                 '. It is currently ' + 
                 response.body.current.temperature + 
